@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metamorfos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="icon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="logo.png" alt="Logo" /></div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#projeto">Sobre o Projeto</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#funciona">Como Funciona</a>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#inicio" onclick="toggleMenu()">Início</a>
+      <a href="#projeto" onclick="toggleMenu()">Sobre o Projeto</a>
+      <a href="#equipe" onclick="toggleMenu()">Equipe</a>
+      <a href="#funciona" onclick="toggleMenu()">Como Funciona</a>
+    </div>
+  </header>
+
+  <section class="inicio" id="inicio">
+    <h1>Bem-vindo ao nosso Projeto!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a augue et orci facilisis aliquet.</p>
+    <a href="#projeto" class="botao">Saiba mais</a>
+  </section>
+
+  <section id="projeto">
+    <h2>Sobre o Projeto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut eros blandit, pharetra nulla non, pretium ex.</p>
+    <p>Aliquam erat volutpat. Curabitur vitae justo vel enim pulvinar fringilla sed nec velit.</p>
+    <img src="ex2.jpeg" alt="Exemplo do Projeto" class="imagem-exemplo" />
+  </section>
+
+  <section id="equipe">
+    <h2>Equipe</h2>
+    <div class="equipe-container">
+      <img src="nois.jpeg" alt="Imagem da Equipe" class="imagem-equipe" />
+      <div class="descricao-equipe">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus metus non velit pretium posuere.</p>
+        <div class="membros">
+          <p><strong>Dogomar</strong> – Pitufo</p>
+          <p><strong>Lívia</strong> – Pitufina</p>
+          <p><strong>Rihanny</strong> – Pitufina</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="funciona">
+    <h2>Como Funciona</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec felis nec est cursus feugiat.</p>
+    <div class="funciona-imagens">
+      <img src="img1.jpeg" alt="Imagem 1" />
+      <img src="img2.jpeg" alt="Imagem 2" />
+      <img src="img3.jpeg" alt="Imagem 3" />
+    </div>
+
+    <div class="tutorial">
+      <h2>Assista ao Tutorial</h2>
+      <iframe src="https://www.youtube.com/embed/WdF44M6BRx4" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    Todos os direitos reservados pela Equipe Metamorfos – 2025
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
