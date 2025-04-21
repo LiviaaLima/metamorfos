@@ -27,3 +27,18 @@ function toggleMenu() {
     document.documentElement.style.fontSize = size + "px";
   }
   
+
+
+
+
+  function lerTexto() {
+    
+    let texto = document.getElementById('texto').textContent;
+     
+    let voz = new SpeechSynthesisUtterance();
+     
+    voz.text = texto;
+    voz.lang = 'pt-BR';
+
+    window.speechSynthesis.speak(voz);
+  }

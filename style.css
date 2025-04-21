@@ -85,7 +85,7 @@ section {
 }
 
 .inicio h1 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 20px;
   font-weight: 60;
   color: #bdd255;
@@ -491,7 +491,7 @@ footer {
 }
 
 #amplifica{
-  width: 350px;
+  width: 320px;
 }
 
 @media (max-width: 768px) {
@@ -522,5 +522,25 @@ footer {
   
   .equipe-container {
     flex-direction: column;
+  }
+
+  #amplifica{
+    width: 250px;
+  }
+  .inicio h1{
+    font-size: 30px;
+  }
+  .descricao-equipe {
+    flex: 1;
+    min-width: 250px;
+    font-size: 17px;
+  }
+  .benefits-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+    line-height: 1.6;
+    text-align: left;
+    font-size: 18px;
   }
 }
